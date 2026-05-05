@@ -1,0 +1,50 @@
+================================================================================
+  QUICK GITHUB COMMANDS
+================================================================================
+
+SETUP (One-time):
+-----------------
+1. Copy README:
+   copy README_PUBLIC.md README.md
+
+2. Initialize:
+   git init
+   git add .
+   git commit -m "Initial commit: Virtual Hand Controller"
+
+3. Add remote (replace YOUR_USERNAME and REPO_NAME):
+   git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
+   git branch -M main
+
+4. Push:
+   git push -u origin main
+
+
+DAILY UPDATES:
+--------------
+git add .
+git commit -m "Your commit message"
+git push
+
+
+COMMON COMMANDS:
+----------------
+Check status:           git status
+View changes:           git diff
+View commit history:    git log
+Undo last commit:       git reset --soft HEAD~1
+Remove file from git:   git rm filename
+
+
+TROUBLESHOOTING:
+----------------
+Remove remote:          git remote remove origin
+View remotes:           git remote -v
+Force push:             git push -f origin main (use carefully!)
+
+
+REPOSITORY URL:
+---------------
+https://github.com/YOUR_USERNAME/REPO_NAME
+
+================================================================================

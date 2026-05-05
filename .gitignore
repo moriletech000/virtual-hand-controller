@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+*.log
+*.mp4
+*.avi
+test_*.py
+debug_*.py
+
+# Documentation (excluding from repo as requested)
+*_GUIDE.md
+*_SUMMARY.md
+*_COMPARISON.md
+*_CHECKLIST.md
+*_REFERENCE.md
+*_TWEAKS.md
+BEFORE_AFTER_COMPARISON.md
+CAMERA_MAXIMIZED.md
+CHANGELOG.md
+DETECTION_*.md
+ENHANCED_*.md
+EXTREME_*.md
+FAQ.md
+FINAL_*.md
+FIX_STEPS.md
+GESTURES_GUIDE.md
+INDEX.md
+INSTALLATION_GUIDE.md
+OPTIMIZATION_*.md
+PROJECT_*.md
+PYTHON_3.14_GUIDE.md
+QUICKSTART.md
+QUICK_*.md
+START_HERE.md
+UPDATED_FOR_PYTHON_3.14.md
+WHATS_NEW.md
+WINDOW_CONTROLS.md
+UI_DESIGN_GUIDE.md
+MODERN_UI_SUMMARY.md
+
+# Keep only the main README
+README.md
+!README_PUBLIC.md

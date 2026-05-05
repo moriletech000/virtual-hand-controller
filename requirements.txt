@@ -1,0 +1,14 @@
+# Core Computer Vision & Hand Tracking (Python 3.14 compatible)
+opencv-python>=4.13.0
+mediapipe>=0.10.35
+
+# Mouse & Keyboard Control (Multiple options for reliability)
+pyautogui>=0.9.54
+pynput>=1.7.7
+mouse>=0.7.1
+
+# Numerical Computing (Python 3.14 compatible)
+numpy>=2.3.0
+
+# Additional utilities
+pillow>=10.3.0

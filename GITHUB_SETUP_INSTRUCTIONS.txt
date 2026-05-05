@@ -1,0 +1,174 @@
+================================================================================
+  GITHUB REPOSITORY SETUP INSTRUCTIONS
+================================================================================
+
+This guide will help you create a new GitHub repository and push your code.
+
+================================================================================
+  OPTION 1: AUTOMATED SETUP (RECOMMENDED)
+================================================================================
+
+Windows Users:
+--------------
+1. Double-click: setup_github.bat
+2. Follow the prompts
+3. Go to https://github.com/new and create the repository
+4. Run: git push -u origin main
+
+Linux/Mac Users:
+----------------
+1. Run: chmod +x setup_github.sh
+2. Run: ./setup_github.sh
+3. Follow the prompts
+4. Go to https://github.com/new and create the repository
+5. Run: git push -u origin main
+
+================================================================================
+  OPTION 2: MANUAL SETUP
+================================================================================
+
+Step 1: Prepare the README
+---------------------------
+Copy README_PUBLIC.md to README.md:
+
+Windows:
+  copy README_PUBLIC.md README.md
+
+Linux/Mac:
+  cp README_PUBLIC.md README.md
+
+
+Step 2: Initialize Git Repository
+----------------------------------
+git init
+git add .
+git commit -m "Initial commit: Virtual Hand Controller"
+
+
+Step 3: Create GitHub Repository
+---------------------------------
+1. Go to: https://github.com/new
+2. Repository name: virtual-hand-controller (or your choice)
+3. Description: Control your computer with hand gestures
+4. Make it PUBLIC
+5. Do NOT check:
+   - Add a README file
+   - Add .gitignore
+   - Choose a license
+6. Click "Create repository"
+
+
+Step 4: Push to GitHub
+-----------------------
+Replace YOUR_USERNAME with your GitHub username:
+
+git remote add origin https://github.com/YOUR_USERNAME/virtual-hand-controller.git
+git branch -M main
+git push -u origin main
+
+
+Step 5: Verify
+--------------
+Go to: https://github.com/YOUR_USERNAME/virtual-hand-controller
+You should see all your files!
+
+================================================================================
+  WHAT GETS PUSHED
+================================================================================
+
+Files that WILL be pushed:
+✅ main.py
+✅ virtual_mouse.py
+✅ virtual_keyboard.py
+✅ hand_detector.py
+✅ ui_elements.py
+✅ config.py
+✅ requirements.txt
+✅ hand_landmarker.task (if present)
+✅ README.md (the public version)
+✅ LICENSE (if present)
+✅ .gitignore
+
+Files that will NOT be pushed (excluded by .gitignore):
+❌ All *_GUIDE.md files
+❌ All *_SUMMARY.md files
+❌ Documentation MD files (QUICKSTART.md, FAQ.md, etc.)
+❌ venv/ folder
+❌ __pycache__/ folder
+❌ *.pyc files
+❌ Test files
+
+================================================================================
+  TROUBLESHOOTING
+================================================================================
+
+Problem: "git: command not found"
+Solution: Install Git from https://git-scm.com/downloads
+
+Problem: "remote origin already exists"
+Solution: Run: git remote remove origin
+         Then try again
+
+Problem: "failed to push"
+Solution: Make sure you created the repository on GitHub first
+         Make sure the repository name matches
+
+Problem: "authentication failed"
+Solution: Use a Personal Access Token instead of password
+         Generate at: https://github.com/settings/tokens
+
+================================================================================
+  AFTER PUSHING
+================================================================================
+
+Your repository will be live at:
+https://github.com/YOUR_USERNAME/virtual-hand-controller
+
+Share it with:
+- Add topics/tags: hand-tracking, computer-vision, opencv, mediapipe
+- Add a description
+- Add a website (if you have one)
+- Star your own repository!
+
+================================================================================
+  MAKING IT LOOK PROFESSIONAL
+================================================================================
+
+1. Add Topics (on GitHub):
+   - hand-tracking
+   - computer-vision
+   - opencv
+   - mediapipe
+   - python
+   - gesture-control
+   - virtual-mouse
+   - virtual-keyboard
+
+2. Add Description:
+   "Control your computer with hand gestures using AI-powered hand tracking"
+
+3. Add a License:
+   - Go to repository settings
+   - Add MIT License
+
+4. Enable Issues and Discussions:
+   - Settings → Features
+   - Check "Issues" and "Discussions"
+
+================================================================================
+  UPDATING THE REPOSITORY
+================================================================================
+
+After making changes to your code:
+
+git add .
+git commit -m "Description of changes"
+git push
+
+================================================================================
+
+Need help? Check:
+- GitHub Docs: https://docs.github.com
+- Git Docs: https://git-scm.com/doc
+
+================================================================================

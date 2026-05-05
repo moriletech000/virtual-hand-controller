@@ -1,0 +1,110 @@
+================================================================================
+                    GIT INSTALLATION - QUICK GUIDE
+================================================================================
+
+Git is NOT currently installed on your system.
+You need to install it before pushing to GitHub.
+
+================================================================================
+  EASIEST METHOD (RECOMMENDED)
+================================================================================
+
+1. Double-click: download_git.bat
+   
+   This will open the Git download page in your browser.
+
+2. Download will start automatically
+   (File: Git-2.xx.x-64-bit.exe)
+
+3. Run the installer
+   - Double-click the downloaded file
+   - Click "Next" through the wizard
+   - Use default settings (recommended)
+   - Click "Install"
+
+4. After installation:
+   - Close this window
+   - Open a NEW Command Prompt or PowerShell
+   - Verify: git --version
+   - Run: setup_github.bat
+
+================================================================================
+  ALTERNATIVE METHODS
+================================================================================
+
+Method 1: Interactive Installer
+--------------------------------
+Double-click: install_git.bat
+
+This will give you options:
+1. Download from official website
+2. Install using winget (Windows 10/11)
+3. View manual instructions
+
+
+Method 2: Using Winget (Windows 10/11)
+---------------------------------------
+Open PowerShell and run:
+  winget install --id Git.Git -e --source winget
+
+
+Method 3: Using Chocolatey
+---------------------------
+If you have Chocolatey installed:
+  choco install git
+
+================================================================================
+  VERIFICATION
+================================================================================
+
+After installation, open a NEW terminal and run:
+
+  git --version
+
+You should see:
+  git version 2.xx.x
+
+If you see this, Git is installed successfully!
+
+================================================================================
+  CONFIGURATION (FIRST TIME)
+================================================================================
+
+After installing Git, configure your identity:
+
+  git config --global user.name "Your Name"
+  git config --global user.email "your.email@example.com"
+
+================================================================================
+  NEXT STEPS
+================================================================================
+
+After Git is installed:
+
+1. Run: setup_github.bat
+2. Follow the prompts
+3. Create repository on GitHub
+4. Push your code!
+
+================================================================================
+  TROUBLESHOOTING
+================================================================================
+
+Problem: "git: command not found" after installation
+Solution: Close and reopen Command Prompt/PowerShell
+
+Problem: Download is slow
+Solution: Be patient, the installer is about 50MB
+
+Problem: Installation fails
+Solution: Run installer as Administrator (right-click → Run as administrator)
+
+================================================================================
+  NEED MORE HELP?
+================================================================================
+
+See detailed instructions in: INSTALL_GIT.md
+
+Official Git website: https://git-scm.com
+
+================================================================================
