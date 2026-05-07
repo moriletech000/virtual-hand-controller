@@ -1,4 +1,4 @@
-# 🖐️ Virtual Mouse & Keyboard Controller
+# Virtual Mouse & Keyboard Controller
 
 Control your computer with hand gestures using your webcam! A modern, AI-powered hand tracking system with professional UI design.
 
@@ -7,29 +7,29 @@ Control your computer with hand gestures using your webcam! A modern, AI-powered
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10.35+-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-yellow.svg)
 
-## ✨ Features
+##  Features
 
-### 🖱️ Virtual Mouse
+###  Virtual Mouse
 - **Move cursor** with index finger
 - **Left click** with thumb + index pinch
 - **Right click** with thumb + middle pinch
 - **Smooth scrolling** with two fingers
 - Works with **either hand** (left or right)
 
-### ⌨️ Virtual Keyboard
+### Virtual Keyboard
 - On-screen keyboard with large, spacious keys
 - Type by hovering over keys (0.8s dwell time)
 - Modern UI with progress indicators
 - Easy to target and use
 
-### 🎨 Modern UI Design
+### Modern UI Design
 - Professional header with FPS counter
 - Real-time hand detection status
 - Color-coded gesture indicators
 - Semi-transparent overlays
 - Rounded corners and smooth shadows
 
-### 🔥 Extreme Detection
+### Extreme Detection
 - **Ultra-sensitive** hand detection (0.1 threshold)
 - Works with **bad backgrounds** and **poor lighting**
 - **Automatic image enhancement** (brightness, contrast, histogram equalization)
@@ -38,7 +38,7 @@ Control your computer with hand gestures using your webcam! A modern, AI-powered
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10 - 3.14
@@ -63,11 +63,11 @@ pip install -r requirements.txt
 python main.py
 ```
 
-That's it! 🎉
+That's it! 
 
 ---
 
-## 🎮 How to Use
+## How to Use
 
 ### Starting the Application
 ```bash
@@ -96,7 +96,7 @@ python main.py
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Mouse Mode
 ```
@@ -132,7 +132,7 @@ python main.py
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Edit `config.py` to customize:
 
@@ -166,7 +166,7 @@ SHOW_LANDMARKS = True              # Show hand skeleton
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Hand not detected?
 - Ensure good lighting (system works in poor lighting but better is always better)
@@ -191,7 +191,7 @@ SHOW_LANDMARKS = True              # Show hand skeleton
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 ```
 opencv-python>=4.13.0.79
@@ -204,7 +204,7 @@ protobuf>=4.25.3
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 virtual-hand-controller/
@@ -221,7 +221,7 @@ virtual-hand-controller/
 
 ---
 
-## 🎯 Key Features Explained
+## Key Features Explained
 
 ### Extreme Detection (0.1 Threshold)
 - **80% more sensitive** than standard detection
@@ -250,7 +250,7 @@ virtual-hand-controller/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 - Report bugs
@@ -260,13 +260,13 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Built with:
 - [OpenCV](https://opencv.org/) - Computer vision library
@@ -275,7 +275,7 @@ Built with:
 
 ---
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 1. Check the troubleshooting section above
@@ -292,4 +292,4 @@ If you find this project useful, please consider giving it a star! ⭐
 
 **Made with ❤️ using Python, OpenCV, and MediaPipe**
 
-**Control your computer with just your hands!** 🖐️✨
+**Control your computer with just your hands!** 
