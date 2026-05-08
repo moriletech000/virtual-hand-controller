@@ -84,10 +84,10 @@ python main.py
 
 | Gesture | Action |
 |---------|--------|
-| ☝️ Index finger up | Move cursor |
-| 🤏 Thumb + Index pinch | Left click |
-| 🤌 Thumb + Middle pinch | Right click |
-| ✌️ Index + Middle up | Scroll |
+|  Index finger up | Move cursor |
+|  Thumb + Index pinch | Left click |
+|  Thumb + Middle pinch | Right click |
+|  Index + Middle up | Scroll |
 
 ### Keyboard Mode
 - Hover your index finger over a key for 0.8 seconds to type
@@ -100,34 +100,34 @@ python main.py
 
 ### Mouse Mode
 ```
-┌──────────────────────────────────────────────┐
-│ Virtual Mouse  Hand Gesture Control  FPS: 60│
-│ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ │
-│                                              │
-│  [MODE: MOUSE]      [HAND DETECTED ✓]       │
-│                                              │
-│           Camera Feed with Hand              │
-│                  ⭕ Cursor                   │
-│                                              │
-│ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ │
-│ F: Fullscreen  Q: Quit  Gesture: CURSOR     │
-└──────────────────────────────────────────────┘
+
+ Virtual Mouse  Hand Gesture Control  FPS: 60
+  
+                                              
+  [MODE: MOUSE]      [HAND DETECTED ]       
+                                              
+           Camera Feed with Hand              
+                   Cursor                   
+                                              
+  
+ F: Fullscreen  Q: Quit  Gesture: CURSOR     
+
 ```
 
 ### Keyboard Mode
 ```
-┌──────────────────────────────────────────────┐
-│ Virtual Keyboard    Hover to Type    FPS: 60│
-│ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ │
-│                                              │
-│  ┌────┐ ┌────┐ ┌────┐ ┌────┐ ┌────┐        │
-│  │ Q  │ │ W  │ │ E  │ │ R  │ │ T  │        │
-│  └────┘ └────┘ └────┘ └────┘ └────┘        │
-│  ┌────┐ ┌────┐ ┌────┐ ┌────┐               │
-│  │ A  │ │ S  │ │ D  │ │ F  │               │
-│  └────┘ └────┘ └────┘ └────┘               │
-│                                              │
-└──────────────────────────────────────────────┘
+
+ Virtual Keyboard    Hover to Type    FPS: 60
+  
+                                              
+              
+   Q    W    E    R    T          
+              
+                    
+   A    S    D    F                 
+                    
+                                              
+
 ```
 
 ---
@@ -208,15 +208,15 @@ protobuf>=4.25.3
 
 ```
 virtual-hand-controller/
-├── main.py                 # Combined mouse + keyboard controller
-├── virtual_mouse.py        # Standalone mouse controller
-├── virtual_keyboard.py     # Standalone keyboard controller
-├── hand_detector.py        # Hand detection module (MediaPipe)
-├── ui_elements.py          # Modern UI components
-├── config.py               # Configuration settings
-├── requirements.txt        # Python dependencies
-├── .gitignore             # Git ignore file
-└── README.md              # This file
+ main.py                 # Combined mouse + keyboard controller
+ virtual_mouse.py        # Standalone mouse controller
+ virtual_keyboard.py     # Standalone keyboard controller
+ hand_detector.py        # Hand detection module (MediaPipe)
+ ui_elements.py          # Modern UI components
+ config.py               # Configuration settings
+ requirements.txt        # Python dependencies
+ .gitignore             # Git ignore file
+ README.md              # This file
 ```
 
 ---
@@ -284,12 +284,12 @@ If you encounter any issues or have questions:
 
 ---
 
-## ⭐ Star This Project
+##  Star This Project
 
-If you find this project useful, please consider giving it a star! ⭐
+If you find this project useful, please consider giving it a star! 
 
 ---
 
-**Made with ❤️ using Python, OpenCV, and MediaPipe**
+**Made with  using Python, OpenCV, and MediaPipe**
 
 **Control your computer with just your hands!** 
